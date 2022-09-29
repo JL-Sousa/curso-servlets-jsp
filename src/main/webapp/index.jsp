@@ -10,9 +10,16 @@
 
 <h1>Curso jsp</h1>
 
-<form action="teste" method="post">
-	<input type="text" name="nome" />
+<form action="ServletLogin" method="post">
+	<label>Login:</label>
+	<input type="text" name="login" />
+	</br>
+	<label>Senha:</label>
+	<input type="password" name="senha" />
+	</br>
 	<input type="submit" value="Enviar" />
+	</br>
+	<h4>${msg}</h4>
 
 </form>
 
