@@ -11,6 +11,7 @@
 <h1>Curso jsp</h1>
 
 <form action="ServletLogin" method="post">
+	<input type="hidden" value="<%= request.getParameter("url") %>" name="url" />
 	<label>Login:</label>
 	<input type="text" name="login" />
 	</br>
